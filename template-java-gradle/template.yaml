@@ -1,0 +1,9 @@
+name: template-java-gradle
+description: A simple Java-Gradle project
+types:
+  - app-template
+inputs:
+  - label: Project name
+    type: text
+    name: project_name
+    default: project_name

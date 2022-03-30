@@ -1,0 +1,10 @@
+# In progress
+type: app
+description: Java-Gradle-Selenium project with samples
+template: stack-java-gradle/template-java-gradle
+inputs:
+  project_name: java-gradle-selenium-app
+plugins:
+- plugin: stack-java-gradle/plugin-selenium
+
+

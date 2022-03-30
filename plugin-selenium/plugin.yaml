@@ -1,0 +1,14 @@
+name: plugin-selenium
+description: Includes a base Selenium configuration in a Java-Gradle project
+types:
+  - app
+hooks:
+  # Adds Selenium dependency
+  - type: edit
+    trigger: after-render
+    path: build.gradle
+    changes:
+      - search:
+          string: "dependencies {"
+          insert-after:
+            snippet: snippets/imports.txt
