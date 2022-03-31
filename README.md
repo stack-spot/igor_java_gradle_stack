@@ -6,6 +6,6 @@
 #### Running the project
 `cd app-java-gradle`  
 Unix: `./gradlew build`  
-Windows: ``gradlew.bat build`  
+Windows: `gradlew.bat build`  
   
 ps: use the flag `-x test` to build without running the tests
